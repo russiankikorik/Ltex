@@ -1,4 +1,4 @@
-for fname in ls *.txt;
+for fname in $(ls *.txt);
 do
     echo $fname >> "$fname"
 done
